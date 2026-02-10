@@ -40,10 +40,36 @@ npx skills add anthropics/skills --skill skill-creator
 
 <!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
 
+### Skills Base (Todos los Tech Leads)
+
 | Skill | Propósito | Comando de instalación |
 |-------|-----------|------------------------|
 | find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
 | skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+
+### Skills de Best Practices y Documentación Core 🔴 Alta Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| vercel-react-best-practices | Best practices React/Next.js, performance optimization, code review guidelines | `npx skills add vercel-labs/agent-skills --skill vercel-react-best-practices` |
+| doc-coauthoring | ADRs (Architecture Decision Records), technical specs, design docs, API documentation | `npx skills add anthropics/skills --skill doc-coauthoring` |
+| vercel-composition-patterns | Patrones de composición React escalables, refactoring, component architecture | `npx skills add vercel-labs/agent-skills --skill vercel-composition-patterns` |
+
+### Skills de Code Review, Arquitectura y Testing 🟡 Media Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| web-design-guidelines | Code review UI/UX, accesibilidad WCAG, visual inspection, auto-fixing | `npx skills add vercel-labs/agent-skills --skill web-design-guidelines` |
+| mcp-builder | Arquitectura servicios MCP, integración APIs, Python/TypeScript MCP servers | `npx skills add anthropics/skills --skill mcp-builder` |
+| webapp-testing | Testing end-to-end con Playwright, test coverage review, debugging funcionalidad | `npx skills add anthropics/skills --skill webapp-testing` |
+| technical-blog-writing | Blog posts técnicos, documentación de decisiones, knowledge sharing, tutorials | `npx skills add 1nference-sh/skills --skill technical-blog-writing` |
+
+### Skills de Comunicación y Presentaciones 🟢 Baja Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| internal-comms | Status reports técnicos, sprint retrospectives, technical updates, incident reports | `npx skills add anthropics/skills --skill internal-comms` |
+| pptx | Presentaciones de arquitectura, technical reviews, sprint planning, tech talks | `npx skills add anthropics/skills --skill pptx` |
 
 ## Regla: Agregar Skills Usados
 

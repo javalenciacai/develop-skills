@@ -31,10 +31,26 @@ npx skills add anthropics/skills --skill skill-creator
 
 <!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
 
+### Skills Base (Todos los AI Engineers)
+
 | Skill | Propósito | Comando de instalación |
 |-------|-----------|------------------------|
 | find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
 | skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+
+### Skills de AI/ML Development 🔴 Alta Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| doc-coauthoring | Model documentation, ML specs, training procedures, model cards, evaluation reports | `npx skills add anthropics/skills --skill doc-coauthoring` |
+| mcp-builder | LLM integration, MCP servers, AI service architecture, API design for ML models | `npx skills add anthropics/skills --skill mcp-builder` |
+| xlsx | Model performance tracking, experiment logs, hyperparameter tuning, ML metrics | `npx skills add anthropics/skills --skill xlsx` |
+
+### Skills de Documentación y Knowledge Sharing 🟡 Media Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| technical-blog-writing | ML best practices, model insights, AI tutorials, MLOps guides | `npx skills add 1nference-sh/skills --skill technical-blog-writing` |
 
 ## Regla: Agregar Skills Usados
 

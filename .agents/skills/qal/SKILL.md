@@ -40,10 +40,35 @@ npx skills add anthropics/skills --skill skill-creator
 
 <!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
 
+### Skills Base (Todos los QA Leads)
+
 | Skill | Propósito | Comando de instalación |
 |-------|-----------|------------------------|
 | find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
 | skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+
+### Skills de Testing y Documentación Core 🔴 Alta Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| webapp-testing | Testing con Playwright, verificar funcionalidad, capturas, debug UI, automation | `npx skills add anthropics/skills --skill webapp-testing` |
+| doc-coauthoring | Test plans, estrategia de calidad, test cases, políticas de testing, security guidelines | `npx skills add anthropics/skills --skill doc-coauthoring` |
+| xlsx | Bug tracking, test matrices, test coverage reports, métricas de calidad, risk assessment | `npx skills add anthropics/skills --skill xlsx` |
+
+### Skills de Reporting y Comunicación 🟡 Media Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| data-visualization | Dashboards de calidad, bug trends, test coverage charts, quality KPIs, security audits | `npx skills add 1nference-sh/skills --skill data-visualization` |
+| internal-comms | Incident reports, test cycle status, quality gate communications, security findings | `npx skills add anthropics/skills --skill internal-comms` |
+| case-study-writing | Post-mortems de bugs críticos, incident retrospectives, quality improvements, lessons learned | `npx skills add 1nference-sh/skills --skill case-study-writing` |
+
+### Skills de Documentación Adicional 🟢 Baja Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| technical-blog-writing | Best practices de testing, automation frameworks, security methodologies, QA insights | `npx skills add 1nference-sh/skills --skill technical-blog-writing` |
+| pptx | Quality strategy presentations, sprint quality reviews, security audits, stakeholder reports | `npx skills add anthropics/skills --skill pptx` |
 
 ## Regla: Agregar Skills Usados
 

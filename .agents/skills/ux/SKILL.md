@@ -31,10 +31,26 @@ npx skills add anthropics/skills --skill skill-creator
 
 <!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
 
+### Skills Base (Todos los UX Designers)
+
 | Skill | Propósito | Comando de instalación |
 |-------|-----------|------------------------|
 | find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
 | skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+
+### Skills de Diseño y UI 🔴 Alta Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| frontend-design | Diseño UI/UX, tipografía, color schemes, animaciones, visual aesthetics | `npx skills add anthropics/skills --skill frontend-design` |
+| web-design-guidelines | Web interface guidelines, accesibilidad, layout, responsive design | `npx skills add vercel-labs/agent-skills --skill web-design-guidelines` |
+| canvas-design | Diseño visual, posters, art, mockups, prototipos visuales | `npx skills add anthropics/skills --skill canvas-design` |
+
+### Skills de Presentación 🟡 Media Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| pptx | Presentaciones de diseño, design reviews, stakeholder presentations | `npx skills add anthropics/skills --skill pptx` |
 
 ## Regla: Agregar Skills Usados
 

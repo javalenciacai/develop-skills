@@ -43,10 +43,34 @@ npx skills add anthropics/skills --skill skill-creator
 
 <!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
 
+### Skills Base (Todos los CTOs)
+
 | Skill | Propósito | Comando de instalación |
 |-------|-----------|------------------------|
 | find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
 | skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+
+### Skills de Documentación y Comunicación 🔴 Alta Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| doc-coauthoring | Crear RFCs, ADRs, technical specs, decision docs, propuestas estratégicas | `npx skills add anthropics/skills --skill doc-coauthoring` |
+| internal-comms | Status reports, leadership updates, newsletters, comunicación con stakeholders | `npx skills add anthropics/skills --skill internal-comms` |
+
+### Skills de Estrategia y Presentaciones 🟡 Media Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| competitor-teardown | Análisis competitivo, SWOT, matrices de features, market research | `npx skills add 1nference-sh/skills --skill competitor-teardown` |
+| pitch-deck-visuals | Presentaciones a inversores, fundraising, demo days, board meetings | `npx skills add 1nference-sh/skills --skill pitch-deck-visuals` |
+
+### Skills de Contenido y Marketing 🟢 Baja Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| product-changelog | Release notes, changelogs, anuncios de features, versioning | `npx skills add 1nference-sh/skills --skill product-changelog` |
+| case-study-writing | Customer success stories, portfolio técnico, sales enablement | `npx skills add 1nference-sh/skills --skill case-study-writing` |
+| technical-blog-writing | Blog posts técnicos, thought leadership, developer relations | `npx skills add 1nference-sh/skills --skill technical-blog-writing` |
 
 ## Regla: Agregar Skills Usados
 

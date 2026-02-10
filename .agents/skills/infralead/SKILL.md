@@ -40,10 +40,27 @@ npx skills add anthropics/skills --skill skill-creator
 
 <!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
 
+### Skills Base (Todos los Infrastructure Leads)
+
 | Skill | Propósito | Comando de instalación |
 |-------|-----------|------------------------|
 | find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
 | skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+
+### Skills de Estrategia y Documentación 🔴 Alta Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| doc-coauthoring | Infrastructure strategy, architecture docs, disaster recovery plans, SLAs | `npx skills add anthropics/skills --skill doc-coauthoring` |
+| internal-comms | Infrastructure updates, incident communications, maintenance schedules | `npx skills add anthropics/skills --skill internal-comms` |
+| pptx | Infrastructure reviews, budget proposals, capacity planning presentations | `npx skills add anthropics/skills --skill pptx` |
+
+### Skills de Análisis y Reporting 🟡 Media Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| data-visualization | Infrastructure metrics, performance dashboards, capacity planning charts | `npx skills add 1nference-sh/skills --skill data-visualization` |
+| technical-blog-writing | Infrastructure best practices, platform updates, technical insights | `npx skills add 1nference-sh/skills --skill technical-blog-writing` |
 
 ## Regla: Agregar Skills Usados
 

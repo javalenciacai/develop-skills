@@ -31,10 +31,26 @@ npx skills add anthropics/skills --skill skill-creator
 
 <!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
 
+### Skills Base (Todos los SecOps)
+
 | Skill | Propósito | Comando de instalación |
 |-------|-----------|------------------------|
 | find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
 | skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+
+### Skills de Seguridad y Documentación 🔴 Alta Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| doc-coauthoring | Security policies, audit reports, vulnerability assessments, incident reports | `npx skills add anthropics/skills --skill doc-coauthoring` |
+| xlsx | Vulnerability tracking, security metrics, compliance checklists, risk matrices | `npx skills add anthropics/skills --skill xlsx` |
+
+### Skills de Comunicación y Reporting 🟡 Media Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| internal-comms | Security incident communications, audit findings, compliance updates | `npx skills add anthropics/skills --skill internal-comms` |
+| technical-blog-writing | Security best practices, DevSecOps guidelines, security awareness content | `npx skills add 1nference-sh/skills --skill technical-blog-writing` |
 
 ## Regla: Agregar Skills Usados
 

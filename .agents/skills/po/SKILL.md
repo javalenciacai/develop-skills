@@ -31,10 +31,26 @@ npx skills add anthropics/skills --skill skill-creator
 
 <!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
 
+### Skills Base (Todos los Product Owners)
+
 | Skill | Propósito | Comando de instalación |
 |-------|-----------|------------------------|
 | find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
 | skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+
+### Skills de Requisitos y Documentación 🔴 Alta Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| doc-coauthoring | User stories, acceptance criteria, PRDs, requisitos detallados | `npx skills add anthropics/skills --skill doc-coauthoring` |
+| xlsx | Backlog priorization, roadmaps, story mapping, sprint planning | `npx skills add anthropics/skills --skill xlsx` |
+
+### Skills de Research y Comunicación 🟡 Media Prioridad
+
+| Skill | Propósito | Comando de instalación |
+|-------|-----------|------------------------|
+| customer-persona | User personas, customer research, user journey mapping | `npx skills add 1nference-sh/skills --skill customer-persona` |
+| product-changelog | Release notes, feature announcements, what's new communications | `npx skills add 1nference-sh/skills --skill product-changelog` |
 
 ## Regla: Agregar Skills Usados
 
