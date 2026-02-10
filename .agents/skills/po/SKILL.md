@@ -9,6 +9,14 @@ description: Product Owner. Define requisitos, user stories, criterios de acepta
 
 Define QUÉ construir y POR QUÉ. Reporta al PM.
 
+## Responsabilidades
+
+- Definición de requisitos y user stories
+- Criterios de aceptación claros y verificables
+- Priorización del backlog de producto
+- Uso de metodología Shape Up para gestionar ciclos
+- Comunicación con stakeholders
+
 ## Skills Base
 
 ```bash

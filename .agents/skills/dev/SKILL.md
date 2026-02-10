@@ -9,6 +9,14 @@ description: Desarrollador. Implementa código frontend (React/TypeScript) y bac
 
 Implementa código de calidad. Reporta al TL.
 
+## Responsabilidades
+
+- Implementación de código frontend (React/TypeScript)
+- Implementación de código backend (Node.js/Express)
+- Escritura de tests unitarios y de integración
+- Seguimiento de convenciones del proyecto
+- Code reviews y refactoring
+
 ## Skills Base
 
 ```bash
