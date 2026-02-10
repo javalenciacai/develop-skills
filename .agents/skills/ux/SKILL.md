@@ -1,62 +1,62 @@
 ---
 name: ux
-description: Diseño de experiencia de usuario. El UX Designer crea interfaces, wireframes, prototipos y define la experiencia del usuario. Reporta al PM. Use when: (1) Designing user interfaces or UI components, (2) Creating wireframes, mockups or prototypes, (3) Defining user flows or navigation, (4) Design system or component library creation, (5) Usability testing or user research, (6) Accessibility (WCAG) or responsive design, (7) Visual design, typography, color schemes or branding.
+description: User experience design. UX Designer creates interfaces, wireframes, prototypes and defines user experience. Reports to PM. Use when: (1) Designing user interfaces or UI components, (2) Creating wireframes, mockups or prototypes, (3) Defining user flows or navigation, (4) Design system or component library creation, (5) Usability testing or user research, (6) Accessibility (WCAG) or responsive design, (7) Visual design, typography, color schemes or branding.
 ---
 
 # UX - UX Designer
 
-## Rol
+## Role
 
-Diseña experiencia de usuario e interfaces. Reporta al PM.
+Designs user experience and interfaces. Reports to PM.
 
-## Responsabilidades
+## Responsibilities
 
-- Diseño de interfaces y experiencia de usuario
-- Creación de wireframes y prototipos
-- Definición de flujos de usuario
-- Testing de usabilidad
-- Sistema de diseño y componentes UI
+- Interface and user experience design
+- Wireframe and prototype creation
+- User flow definition
+- Usability testing
+- Design system and UI components
 
-## Skills Base
+## Base Skills
 
 ```bash
-# Buscar skills existentes
+# Find existing skills
 npx skills add vercel-labs/skills --skill find-skills
 
-# Crear skills nuevos
+# Create new skills
 npx skills add anthropics/skills --skill skill-creator
 ```
 
-## Skills Actuales
+## Current Skills
 
-<!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
+<!-- Add here each skill you use with: npx skills add <owner/repo> --skill <name> -->
 
-### Skills Base (Todos los UX Designers)
+### Base Skills (All UX Designers)
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
-| skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+| Skill | Purpose | Installation command |
+|-------|---------|---------------------|
+| find-skills | Find skills | `npx skills add vercel-labs/skills --skill find-skills` |
+| skill-creator | Create skills | `npx skills add anthropics/skills --skill skill-creator` |
 
-### Skills de Diseño y UI 🔴 Alta Prioridad
+### Design and UI Skills 🔴 High Priority
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| frontend-design | Diseño UI/UX, tipografía, color schemes, animaciones, visual aesthetics | `npx skills add anthropics/skills --skill frontend-design` |
-| web-design-guidelines | Web interface guidelines, accesibilidad, layout, responsive design | `npx skills add vercel-labs/agent-skills --skill web-design-guidelines` |
-| canvas-design | Diseño visual, posters, art, mockups, prototipos visuales | `npx skills add anthropics/skills --skill canvas-design` |
+| Skill | Purpose | Installation command |
+|-------|---------|---------------------|
+| frontend-design | UI/UX design, typography, color schemes, animations, visual aesthetics | `npx skills add anthropics/skills --skill frontend-design` |
+| web-design-guidelines | Web interface guidelines, accessibility, layout, responsive design | `npx skills add vercel-labs/agent-skills --skill web-design-guidelines` |
+| canvas-design | Visual design, posters, art, mockups, visual prototypes | `npx skills add anthropics/skills --skill canvas-design` |
 
-### Skills de Presentación 🟡 Media Prioridad
+### Presentation Skills 🟡 Medium Priority
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| pptx | Presentaciones de diseño, design reviews, stakeholder presentations | `npx skills add anthropics/skills --skill pptx` |
+| Skill | Purpose | Installation command |
+|-------|---------|---------------------|
+| pptx | Design presentations, design reviews, stakeholder presentations | `npx skills add anthropics/skills --skill pptx` |
 
-## Regla: Agregar Skills Usados
+## Rule: Add Used Skills
 
-**Cada vez que uses un skill nuevo, agrégalo a la tabla "Skills Actuales".**
+**Every time you use a new skill, add it to the "Current Skills" table.**
 
-Ejemplos de skills a buscar:
+Examples of skills to search for:
 - `npx skills find ux-design`
 - `npx skills find figma`
 - `npx skills find wireframe`

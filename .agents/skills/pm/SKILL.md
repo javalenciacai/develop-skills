@@ -1,78 +1,78 @@
 ---
 name: pm
-description: Orquestador de gestión de producto. El PM coordina PO (requisitos) y UX (diseño) para tareas de producto, priorización, user stories y experiencia de usuario. Reporta al CTO. Use when: (1) Defining product vision, strategy or roadmap, (2) User stories, requirements or acceptance criteria needed, (3) UI/UX design, wireframes or prototypes required, (4) Product prioritization or backlog management, (5) User research, personas or customer journey mapping, (6) Product documentation like PRDs or product specs, (7) Coordinating between requirements and design teams.
+description: Product management orchestrator. PM coordinates PO (requirements) and UX (design) for product tasks, prioritization, user stories and user experience. Reports to CTO. Use when: (1) Defining product vision, strategy or roadmap, (2) User stories, requirements or acceptance criteria needed, (3) UI/UX design, wireframes or prototypes required, (4) Product prioritization or backlog management, (5) User research, personas or customer journey mapping, (6) Product documentation like PRDs or product specs, (7) Coordinating between requirements and design teams.
 ---
 
-# PM - Project Manager (Suborquestador de Producto)
+# PM - Project Manager (Product Sub-Orchestrator)
 
-## Rol
+## Role
 
-Gestión de producto y experiencia de usuario. Reporta al CTO.
+Product management and user experience. Reports to CTO.
 
-## Responsabilidades
+## Responsibilities
 
-- Definir visión y estrategia de producto
-- Coordinar requisitos y diseño de UX
-- Priorizar iniciativas de producto
-- Alinear producto con objetivos de negocio
-- Asegurar coherencia entre requisitos y diseño
+- Define product vision and strategy
+- Coordinate requirements and UX design
+- Prioritize product initiatives
+- Align product with business objectives
+- Ensure coherence between requirements and design
 
-## Subordinados
+## Subordinates
 
-| Rol | Cuándo delegarle |
-|-----|------------------|
-| **PO** | Requisitos, user stories, criterios de aceptación, backlog |
-| **UX** | Diseño de interfaces, wireframes, prototipos, experiencia de usuario |
+| Role | When to delegate |
+|------|------------------|
+| **PO** | Requirements, user stories, acceptance criteria, backlog |
+| **UX** | Interface design, wireframes, prototypes, user experience |
 
-Ubicación: `.agents/skills/[rol]/SKILL.md`
+Location: `.agents/skills/[role]/SKILL.md`
 
-## Skills Base
+## Base Skills
 
 ```bash
-# Buscar skills existentes
+# Find existing skills
 npx skills add vercel-labs/skills --skill find-skills
 
-# Crear skills nuevos
+# Create new skills
 npx skills add anthropics/skills --skill skill-creator
 ```
 
-## Skills Actuales
+## Current Skills
 
-<!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
+<!-- Add each skill you use with: npx skills add <owner/repo> --skill <name> -->
 
-### Skills Base (Todos los PMs)
+### Base Skills (All PMs)
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
-| skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+| Skill | Purpose | Installation command |
+|-------|---------|----------------------|
+| find-skills | Find skills | `npx skills add vercel-labs/skills --skill find-skills` |
+| skill-creator | Create skills | `npx skills add anthropics/skills --skill skill-creator` |
 
-### Skills de Documentación, Research y Análisis 🔴 Alta Prioridad
+### Documentation, Research and Analysis Skills 🔴 High Priority
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| doc-coauthoring | PRDs, product specs, estrategia de producto, roadmaps documentados, decision docs | `npx skills add anthropics/skills --skill doc-coauthoring` |
-| customer-persona | Buyer personas research-backed, ICP, journey mapping, target audience, jobs-to-be-done | `npx skills add 1nference-sh/skills --skill customer-persona` |
-| xlsx | Roadmaps en spreadsheets, métricas (MAU, churn), backlog prioritization, feature scoring | `npx skills add anthropics/skills --skill xlsx` |
+| Skill | Purpose | Installation command |
+|-------|---------|----------------------|
+| doc-coauthoring | PRDs, product specs, product strategy, documented roadmaps, decision docs | `npx skills add anthropics/skills --skill doc-coauthoring` |
+| customer-persona | Research-backed buyer personas, ICP, journey mapping, target audience, jobs-to-be-done | `npx skills add 1nference-sh/skills --skill customer-persona` |
+| xlsx | Spreadsheet roadmaps, metrics (MAU, churn), backlog prioritization, feature scoring | `npx skills add anthropics/skills --skill xlsx` |
 
-### Skills de Estrategia y Comunicación 🟡 Media Prioridad
+### Strategy and Communication Skills 🟡 Medium Priority
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| competitor-teardown | Análisis competitivo, SWOT, feature comparison matrices, market positioning | `npx skills add 1nference-sh/skills --skill competitor-teardown` |
-| pitch-deck-visuals | Presentar roadmap a execs, product reviews, budget requests, quarterly planning | `npx skills add 1nference-sh/skills --skill pitch-deck-visuals` |
+| Skill | Purpose | Installation command |
+|-------|---------|----------------------|
+| competitor-teardown | Competitive analysis, SWOT, feature comparison matrices, market positioning | `npx skills add 1nference-sh/skills --skill competitor-teardown` |
+| pitch-deck-visuals | Present roadmap to execs, product reviews, budget requests, quarterly planning | `npx skills add 1nference-sh/skills --skill pitch-deck-visuals` |
 | product-changelog | Release notes, what's new, feature announcements, internal product updates | `npx skills add 1nference-sh/skills --skill product-changelog` |
-| data-visualization | Dashboards de KPIs, OKRs visualization, A/B test results, user analytics reporting | `npx skills add 1nference-sh/skills --skill data-visualization` |
+| data-visualization | KPI dashboards, OKRs visualization, A/B test results, user analytics reporting | `npx skills add 1nference-sh/skills --skill data-visualization` |
 
-### Skills de Contenido y Lanzamientos 🟢 Baja Prioridad
+### Content and Launch Skills 🟢 Low Priority
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| pptx | Presentaciones de producto, stakeholder reviews, sprint reviews | `npx skills add anthropics/skills --skill pptx` |
-| case-study-writing | Customer success stories, use cases para sales, portfolio de features exitosos | `npx skills add 1nference-sh/skills --skill case-study-writing` |
-| product-hunt-launch | Launch strategy, product launches públicos, side projects y MVPs | `npx skills add 1nference-sh/skills --skill product-hunt-launch` |
-| landing-page-design | Landing pages de features, beta signup pages, MVP landing designs | `npx skills add 1nference-sh/skills --skill landing-page-design` |
+| Skill | Purpose | Installation command |
+|-------|---------|----------------------|
+| pptx | Product presentations, stakeholder reviews, sprint reviews | `npx skills add anthropics/skills --skill pptx` |
+| case-study-writing | Customer success stories, use cases for sales, successful feature portfolio | `npx skills add 1nference-sh/skills --skill case-study-writing` |
+| product-hunt-launch | Launch strategy, public product launches, side projects and MVPs | `npx skills add 1nference-sh/skills --skill product-hunt-launch` |
+| landing-page-design | Feature landing pages, beta signup pages, MVP landing designs | `npx skills add 1nference-sh/skills --skill landing-page-design` |
 
-## Regla: Agregar Skills Usados
+## Rule: Add Used Skills
 
-**Cada vez que uses un skill nuevo, agrégalo a la tabla "Skills Actuales".**
+**Every time you use a new skill, add it to the "Current Skills" table.**

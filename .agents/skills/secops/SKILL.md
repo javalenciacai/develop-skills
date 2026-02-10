@@ -1,62 +1,62 @@
 ---
 name: secops
-description: Operaciones de seguridad. SecOps realiza auditorías de seguridad, DevSecOps y análisis de vulnerabilidades. Reporta al QAL. Use when: (1) Security audits or vulnerability assessments, (2) DevSecOps implementation or security in CI/CD, (3) Penetration testing or security testing, (4) Security policies, compliance or GDPR/SOC2, (5) Incident response or security monitoring, (6) Code security scanning or dependency audits, (7) Threat modeling or risk assessment.
+description: Security operations. SecOps performs security audits, DevSecOps and vulnerability analysis. Reports to QAL. Use when: (1) Security audits or vulnerability assessments, (2) DevSecOps implementation or security in CI/CD, (3) Penetration testing or security testing, (4) Security policies, compliance or GDPR/SOC2, (5) Incident response or security monitoring, (6) Code security scanning or dependency audits, (7) Threat modeling or risk assessment.
 ---
 
 # SecOps - Security Operations
 
-## Rol
+## Role
 
-Asegura la seguridad del sistema. Reporta al QAL.
+Ensures system security. Reports to QAL.
 
-## Responsabilidades
+## Responsibilities
 
-- Auditoría de seguridad y análisis de vulnerabilidades
-- DevSecOps e integración de seguridad en CI/CD
-- Pentesting y evaluación de riesgos
-- Cumplimiento de normativas de seguridad
-- Gestión de incidentes de seguridad
+- Security auditing and vulnerability analysis
+- DevSecOps and security integration in CI/CD
+- Penetration testing and risk assessment
+- Security compliance and regulations
+- Security incident management
 
-## Skills Base
+## Base Skills
 
 ```bash
-# Buscar skills existentes
+# Find existing skills
 npx skills add vercel-labs/skills --skill find-skills
 
-# Crear skills nuevos
+# Create new skills
 npx skills add anthropics/skills --skill skill-creator
 ```
 
-## Skills Actuales
+## Current Skills
 
-<!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
+<!-- Add here each skill you use with: npx skills add <owner/repo> --skill <name> -->
 
-### Skills Base (Todos los SecOps)
+### Base Skills (All SecOps Engineers)
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
-| skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+| Skill | Purpose | Installation command |
+|-------|---------|---------------------|
+| find-skills | Find skills | `npx skills add vercel-labs/skills --skill find-skills` |
+| skill-creator | Create skills | `npx skills add anthropics/skills --skill skill-creator` |
 
-### Skills de Seguridad y Documentación 🔴 Alta Prioridad
+### Security and Documentation Skills 🔴 High Priority
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
+| Skill | Purpose | Installation command |
+|-------|---------|---------------------|
 | doc-coauthoring | Security policies, audit reports, vulnerability assessments, incident reports | `npx skills add anthropics/skills --skill doc-coauthoring` |
 | xlsx | Vulnerability tracking, security metrics, compliance checklists, risk matrices | `npx skills add anthropics/skills --skill xlsx` |
 
-### Skills de Comunicación y Reporting 🟡 Media Prioridad
+### Communication and Reporting Skills 🟡 Medium Priority
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
+| Skill | Purpose | Installation command |
+|-------|---------|---------------------|
 | internal-comms | Security incident communications, audit findings, compliance updates | `npx skills add anthropics/skills --skill internal-comms` |
 | technical-blog-writing | Security best practices, DevSecOps guidelines, security awareness content | `npx skills add 1nference-sh/skills --skill technical-blog-writing` |
 
-## Regla: Agregar Skills Usados
+## Rule: Add Used Skills
 
-**Cada vez que uses un skill nuevo, agrégalo a la tabla "Skills Actuales".**
+**Every time you use a new skill, add it to the "Current Skills" table.**
 
-Ejemplos de skills a buscar:
+Examples of skills to search for:
 - `npx skills find security`
 - `npx skills find devsecops`
 - `npx skills find vulnerability`

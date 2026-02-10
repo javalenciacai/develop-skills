@@ -1,76 +1,76 @@
 ---
 name: tl
-description: Orquestador técnico. El Tech Lead coordina Architect (arquitectura) y Dev (código) para implementación, diseño técnico y code review. Reporta al CTO. Use when: (1) Technical decisions or architecture design needed, (2) Code implementation, features or bug fixes required, (3) Code review, refactoring or technical debt management, (4) Technology evaluation or framework selection, (5) Technical documentation like ADRs or design docs, (6) Performance optimization or scalability concerns, (7) Coordinating between architecture design and code implementation.
+description: Technical orchestrator. Tech Lead coordinates Architect (architecture) and Dev (code) for implementation, technical design and code review. Reports to CTO. Use when: (1) Technical decisions or architecture design needed, (2) Code implementation, features or bug fixes required, (3) Code review, refactoring or technical debt management, (4) Technology evaluation or framework selection, (5) Technical documentation like ADRs or design docs, (6) Performance optimization or scalability concerns, (7) Coordinating between architecture design and code implementation.
 ---
 
-# TL - Tech Lead (Suborquestador Técnico)
+# TL - Tech Lead (Technical Sub-orchestrator)
 
-## Rol
+## Role
 
-Lidera el lado técnico. Reporta al CTO.
+Leads the technical side. Reports to CTO.
 
-## Responsabilidades
+## Responsibilities
 
-- Coordinar arquitectura y desarrollo de software
-- Tomar decisiones técnicas de alto nivel
-- Asegurar calidad del código mediante code reviews
-- Mantener estándares de desarrollo y convenciones
-- Resolver impedimentos técnicos del equipo
+- Coordinate architecture and software development
+- Make high-level technical decisions
+- Ensure code quality through code reviews
+- Maintain development standards and conventions
+- Resolve technical blockers for the team
 
-## Subordinados
+## Subordinates
 
-| Rol | Cuándo delegarle |
-|-----|------------------|
-| **Architect** | Diseño de arquitectura, patrones, decisiones técnicas de alto nivel |
-| **Dev** | Código, features, bug fixes, implementación |
+| Role | When to delegate |
+|------|------------------|
+| **Architect** | Architecture design, patterns, high-level technical decisions |
+| **Dev** | Code, features, bug fixes, implementation |
 
-Ubicación: `.agents/skills/[rol]/SKILL.md`
+Location: `.agents/skills/[role]/SKILL.md`
 
-## Skills Base
+## Base Skills
 
 ```bash
-# Buscar skills existentes
+# Find existing skills
 npx skills add vercel-labs/skills --skill find-skills
 
-# Crear skills nuevos
+# Create new skills
 npx skills add anthropics/skills --skill skill-creator
 ```
 
-## Skills Actuales
+## Current Skills
 
-<!-- Agregar aquí cada skill que uses con: npx skills add <owner/repo> --skill <name> -->
+<!-- Add here each skill you use with: npx skills add <owner/repo> --skill <name> -->
 
-### Skills Base (Todos los Tech Leads)
+### Base Skills (All Tech Leads)
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| find-skills | Buscar skills | `npx skills add vercel-labs/skills --skill find-skills` |
-| skill-creator | Crear skills | `npx skills add anthropics/skills --skill skill-creator` |
+| Skill | Purpose | Installation command |
+|-------|---------|---------------------|
+| find-skills | Find skills | `npx skills add vercel-labs/skills --skill find-skills` |
+| skill-creator | Create skills | `npx skills add anthropics/skills --skill skill-creator` |
 
-### Skills de Best Practices y Documentación Core 🔴 Alta Prioridad
+### Core Best Practices and Documentation Skills 🔴 High Priority
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| vercel-react-best-practices | Best practices React/Next.js, performance optimization, code review guidelines | `npx skills add vercel-labs/agent-skills --skill vercel-react-best-practices` |
+| Skill | Purpose | Installation command |
+|-------|---------|---------------------|
+| vercel-react-best-practices | React/Next.js best practices, performance optimization, code review guidelines | `npx skills add vercel-labs/agent-skills --skill vercel-react-best-practices` |
 | doc-coauthoring | ADRs (Architecture Decision Records), technical specs, design docs, API documentation | `npx skills add anthropics/skills --skill doc-coauthoring` |
-| vercel-composition-patterns | Patrones de composición React escalables, refactoring, component architecture | `npx skills add vercel-labs/agent-skills --skill vercel-composition-patterns` |
+| vercel-composition-patterns | Scalable React composition patterns, refactoring, component architecture | `npx skills add vercel-labs/agent-skills --skill vercel-composition-patterns` |
 
-### Skills de Code Review, Arquitectura y Testing 🟡 Media Prioridad
+### Code Review, Architecture and Testing Skills 🟡 Medium Priority
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| web-design-guidelines | Code review UI/UX, accesibilidad WCAG, visual inspection, auto-fixing | `npx skills add vercel-labs/agent-skills --skill web-design-guidelines` |
-| mcp-builder | Arquitectura servicios MCP, integración APIs, Python/TypeScript MCP servers | `npx skills add anthropics/skills --skill mcp-builder` |
-| webapp-testing | Testing end-to-end con Playwright, test coverage review, debugging funcionalidad | `npx skills add anthropics/skills --skill webapp-testing` |
-| technical-blog-writing | Blog posts técnicos, documentación de decisiones, knowledge sharing, tutorials | `npx skills add 1nference-sh/skills --skill technical-blog-writing` |
+| Skill | Purpose | Installation command |
+|-------|---------|---------------------|
+| web-design-guidelines | UI/UX code review, WCAG accessibility, visual inspection, auto-fixing | `npx skills add vercel-labs/agent-skills --skill web-design-guidelines` |
+| mcp-builder | MCP services architecture, API integration, Python/TypeScript MCP servers | `npx skills add anthropics/skills --skill mcp-builder` |
+| webapp-testing | End-to-end testing with Playwright, test coverage review, debugging functionality | `npx skills add anthropics/skills --skill webapp-testing` |
+| technical-blog-writing | Technical blog posts, decision documentation, knowledge sharing, tutorials | `npx skills add 1nference-sh/skills --skill technical-blog-writing` |
 
-### Skills de Comunicación y Presentaciones 🟢 Baja Prioridad
+### Communication and Presentation Skills 🟢 Low Priority
 
-| Skill | Propósito | Comando de instalación |
-|-------|-----------|------------------------|
-| internal-comms | Status reports técnicos, sprint retrospectives, technical updates, incident reports | `npx skills add anthropics/skills --skill internal-comms` |
-| pptx | Presentaciones de arquitectura, technical reviews, sprint planning, tech talks | `npx skills add anthropics/skills --skill pptx` |
+| Skill | Purpose | Installation command |
+|-------|---------|---------------------|
+| internal-comms | Technical status reports, sprint retrospectives, technical updates, incident reports | `npx skills add anthropics/skills --skill internal-comms` |
+| pptx | Architecture presentations, technical reviews, sprint planning, tech talks | `npx skills add anthropics/skills --skill pptx` |
 
-## Regla: Agregar Skills Usados
+## Rule: Add Used Skills
 
-**Cada vez que uses un skill nuevo, agrégalo a la tabla "Skills Actuales".**
+**Every time you use a new skill, add it to the "Current Skills" table.**
