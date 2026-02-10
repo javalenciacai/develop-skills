@@ -1,6 +1,6 @@
 ---
 name: qa
-description: Quality Assurance. Diseña y ejecuta pruebas, valida criterios de aceptación, reporta bugs. Trabaja con Vitest (frontend) y Jest (backend). Reporta al QAL.
+description: Quality Assurance. Diseña y ejecuta pruebas, valida criterios de aceptación, reporta bugs. Trabaja con Vitest (frontend) y Jest (backend). Reporta al QAL. Use when: (1) Writing or executing test cases, (2) Test automation with Vitest, Jest or Playwright, (3) Validating acceptance criteria, (4) Bug reporting, tracking or regression testing, (5) End-to-end testing or integration testing, (6) Test coverage analysis or quality metrics, (7) Functional testing or smoke testing.
 ---
 
 # QA - Quality Assurance

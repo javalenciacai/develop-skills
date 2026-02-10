@@ -1,6 +1,6 @@
 ---
 name: tl
-description: Orquestador técnico. El Tech Lead coordina Architect (arquitectura) y Dev (código) para implementación, diseño técnico y code review. Reporta al CTO.
+description: Orquestador técnico. El Tech Lead coordina Architect (arquitectura) y Dev (código) para implementación, diseño técnico y code review. Reporta al CTO. Use when: (1) Technical decisions or architecture design needed, (2) Code implementation, features or bug fixes required, (3) Code review, refactoring or technical debt management, (4) Technology evaluation or framework selection, (5) Technical documentation like ADRs or design docs, (6) Performance optimization or scalability concerns, (7) Coordinating between architecture design and code implementation.
 ---
 
 # TL - Tech Lead (Suborquestador Técnico)

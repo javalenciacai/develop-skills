@@ -1,6 +1,6 @@
 ---
 name: qal
-description: Orquestador de estrategia de calidad. El QA Lead coordina QA y SecOps para testing funcional, automatización y seguridad. Asegura la calidad del producto y define estrategias de testing.
+description: Orquestador de estrategia de calidad. El QA Lead coordina QA y SecOps para testing funcional, automatización y seguridad. Asegura la calidad del producto y define estrategias de testing. Reporta al CTO. Use when: (1) Defining quality assurance strategy or test plans, (2) Functional testing, test automation or bug tracking needed, (3) Security audits, vulnerability assessments or DevSecOps required, (4) Test coverage analysis or quality metrics reporting, (5) Compliance validation or security policies, (6) Incident management or post-mortems for quality issues, (7) Coordinating between QA testing and security operations.
 ---
 
 # QAL - QA Lead (Suborquestador de Calidad)

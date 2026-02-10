@@ -1,6 +1,6 @@
 ---
 name: dev
-description: Desarrollador. Implementa código frontend (React/TypeScript) y backend (Node.js/Express). Escribe tests, sigue convenciones del proyecto. Reporta al TL.
+description: Desarrollador. Implementa código frontend (React/TypeScript) y backend (Node.js/Express). Escribe tests, sigue convenciones del proyecto. Reporta al TL. Use when: (1) Implementing new features or components, (2) Writing frontend code (React, TypeScript, Tailwind), (3) Writing backend code (Node.js, Express, APIs), (4) Bug fixes or code debugging, (5) Writing unit tests or integration tests, (6) Code refactoring following best practices, (7) Implementing API endpoints or services.
 ---
 
 # Dev - Desarrollador

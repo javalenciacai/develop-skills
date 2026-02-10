@@ -1,6 +1,6 @@
 ---
 name: dba
-description: Administrador de bases de datos. El DBA gestiona BD, optimización, backups, replicación y tuning. Reporta al InfraLead.
+description: Administrador de bases de datos. El DBA gestiona BD, optimización, backups, replicación y tuning. Reporta al InfraLead. Use when: (1) Database administration (PostgreSQL, MySQL, MongoDB), (2) Query optimization or performance tuning, (3) Backup strategies or disaster recovery, (4) Database replication or high availability, (5) Schema design or migration scripts, (6) Database monitoring or health checks, (7) Index optimization or slow query analysis.
 ---
 
 # DBA - Database Administrator

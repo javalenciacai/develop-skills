@@ -1,6 +1,6 @@
 ---
 name: cto
-description: Orquestador principal de roles. El CTO analiza tareas y delega a PM (producto), QAL (calidad), TL (desarrollo), InfraLead (infraestructura) o DataLead (datos/IA). Punto de entrada para todas las tareas.
+description: Orquestador principal de roles. El CTO analiza tareas y delega a PM (producto), QAL (calidad), TL (desarrollo), InfraLead (infraestructura) o DataLead (datos/IA). Punto de entrada para todas las tareas. Use when: (1) User requests involve product strategy, roadmap or UX, (2) Quality testing, security audits or compliance needed, (3) Development, architecture or code implementation required, (4) Infrastructure, CI/CD, databases or deployment tasks, (5) Data pipelines, analytics, AI/ML models or LLM integration, (6) Cross-domain coordination between multiple areas, (7) Any ambiguous request that needs domain analysis and delegation.
 ---
 
 # CTO - Chief Technology Officer (Orquestador Principal)

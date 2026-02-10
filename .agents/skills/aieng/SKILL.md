@@ -1,6 +1,6 @@
 ---
 name: aieng
-description: Ingeniero de IA. AIEng desarrolla modelos de IA/ML, entrenamiento, MLOps e integración de LLMs. Reporta al DataLead.
+description: Ingeniero de IA. AIEng desarrolla modelos de IA/ML, entrenamiento, MLOps e integración de LLMs. Reporta al DataLead. Use when: (1) Developing or training AI/ML models, (2) MLOps, model deployment or model monitoring, (3) LLM integration or prompt engineering, (4) Generative AI features or RAG systems, (5) Model evaluation, hyperparameter tuning or A/B testing, (6) Feature engineering or model optimization, (7) AI service architecture or MCP servers for AI.
 ---
 
 # AIEng - AI Engineer

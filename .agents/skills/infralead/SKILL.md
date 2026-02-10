@@ -1,6 +1,6 @@
 ---
 name: infralead
-description: Orquestador de infraestructura. El Infrastructure Lead coordina DevOps y DBA para CI/CD, cloud, containers y gestión de bases de datos. Lidera la plataforma y operaciones.
+description: Orquestador de infraestructura. El Infrastructure Lead coordina DevOps y DBA para CI/CD, cloud, containers y gestión de bases de datos. Lidera la plataforma y operaciones. Reporta al CTO. Use when: (1) Infrastructure strategy or platform architecture needed, (2) CI/CD pipelines, deployments or container orchestration required, (3) Database management, optimization or backup strategies, (4) Cloud infrastructure or infrastructure as code (IaC), (5) System monitoring, logging or incident response, (6) Capacity planning or disaster recovery, (7) Coordinating between DevOps operations and database administration.
 ---
 
 # InfraLead - Infrastructure Lead (Suborquestador de Infraestructura)

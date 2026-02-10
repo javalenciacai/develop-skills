@@ -1,6 +1,6 @@
 ---
 name: architect
-description: Arquitecto de software. Diseña arquitectura, patrones y toma decisiones técnicas de alto nivel. Reporta al TL.
+description: Arquitecto de software. Diseña arquitectura, patrones y toma decisiones técnicas de alto nivel. Reporta al TL. Use when: (1) Designing software architecture or system design, (2) Defining architectural patterns (microservices, MVC, event-driven), (3) High-level technical decisions or technology evaluation, (4) API design or service integration architecture, (5) Scalability, performance or reliability design, (6) Writing ADRs (Architecture Decision Records), (7) Database schema design or data architecture.
 ---
 
 # Architect - Software Architect

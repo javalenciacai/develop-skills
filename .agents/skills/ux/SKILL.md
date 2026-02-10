@@ -1,6 +1,6 @@
 ---
 name: ux
-description: Diseño de experiencia de usuario. El UX Designer crea interfaces, wireframes, prototipos y define la experiencia del usuario. Reporta al PM.
+description: Diseño de experiencia de usuario. El UX Designer crea interfaces, wireframes, prototipos y define la experiencia del usuario. Reporta al PM. Use when: (1) Designing user interfaces or UI components, (2) Creating wireframes, mockups or prototypes, (3) Defining user flows or navigation, (4) Design system or component library creation, (5) Usability testing or user research, (6) Accessibility (WCAG) or responsive design, (7) Visual design, typography, color schemes or branding.
 ---
 
 # UX - UX Designer

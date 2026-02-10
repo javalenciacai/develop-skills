@@ -1,6 +1,6 @@
 ---
 name: secops
-description: Operaciones de seguridad. SecOps realiza auditorías de seguridad, DevSecOps y análisis de vulnerabilidades. Reporta al QAL.
+description: Operaciones de seguridad. SecOps realiza auditorías de seguridad, DevSecOps y análisis de vulnerabilidades. Reporta al QAL. Use when: (1) Security audits or vulnerability assessments, (2) DevSecOps implementation or security in CI/CD, (3) Penetration testing or security testing, (4) Security policies, compliance or GDPR/SOC2, (5) Incident response or security monitoring, (6) Code security scanning or dependency audits, (7) Threat modeling or risk assessment.
 ---
 
 # SecOps - Security Operations

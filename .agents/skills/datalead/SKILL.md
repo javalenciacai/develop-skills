@@ -1,6 +1,6 @@
 ---
 name: datalead
-description: Orquestador de datos e IA. El Data Lead coordina DataEng y AIEng para pipelines de datos, ETL, data warehousing y modelos de IA/ML. Lidera estrategia de datos y machine learning.
+description: Orquestador de datos e IA. El Data Lead coordina DataEng y AIEng para pipelines de datos, ETL, data warehousing y modelos de IA/ML. Lidera estrategia de datos y machine learning. Reporta al CTO. Use when: (1) Data strategy, analytics or data governance needed, (2) Data pipelines, ETL or data warehousing required, (3) AI/ML models, training or MLOps implementation, (4) LLM integration or generative AI features, (5) Data quality, schema design or data architecture, (6) Model evaluation, monitoring or A/B testing, (7) Coordinating between data engineering and AI engineering teams.
 ---
 
 # DataLead - Data Lead (Suborquestador de Datos e IA)

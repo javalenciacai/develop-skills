@@ -1,6 +1,6 @@
 ---
 name: dataeng
-description: Ingeniero de datos. DataEng construye pipelines de datos, ETL, data warehousing y procesamiento batch/streaming. Reporta al DataLead.
+description: Ingeniero de datos. DataEng construye pipelines de datos, ETL, data warehousing y procesamiento batch/streaming. Reporta al DataLead. Use when: (1) Building data pipelines or ETL processes, (2) Data warehousing or data lake architecture, (3) Batch processing or streaming data (Kafka, Spark), (4) Data integration from multiple sources, (5) Data quality validation or data cleaning, (6) Schema design or data modeling, (7) Data orchestration (Airflow, Dagster) or scheduling.
 ---
 
 # DataEng - Data Engineer
