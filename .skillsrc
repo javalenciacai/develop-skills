@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "skillsDirectory": ".agents/skills",
+  "discoveryPaths": [
+    ".agents/skills",
+    "skills"
+  ],
+  "entryPoint": "cto",
+  "metadata": {
+    "name": "agent-skills-develop",
+    "displayName": "Agent Skills - Development Team",
+    "description": "Comprehensive collection of AI agent skills organized as a virtual development team",
+    "author": "James A. Valencia",
+    "repository": "https://github.com/javalenciacai/develop-skills",
+    "license": "MIT",
+    "keywords": [
+      "agent-skills",
+      "ai-agents",
+      "development",
+      "orchestration",
+      "devops",
+      "architecture",
+      "product-management",
+      "qa",
+      "security",
+      "data-engineering",
+      "machine-learning"
+    ]
+  }
+}

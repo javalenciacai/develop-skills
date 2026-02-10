@@ -19,15 +19,15 @@
     "data-engineering",
     "machine-learning"
   ],
-  "homepage": "https://github.com/<your-github-username>/develop-skills#readme",
+  "homepage": "https://github.com/javalenciacai/develop-skills#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<your-github-username>/develop-skills.git"
+    "url": "git+https://github.com/javalenciacai/develop-skills.git"
   },
   "bugs": {
-    "url": "https://github.com/<your-github-username>/develop-skills/issues"
+    "url": "https://github.com/javalenciacai/develop-skills/issues"
   },
-  "author": "Your Name",
+  "author": "James A. Valencia",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"

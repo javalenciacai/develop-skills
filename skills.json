@@ -1,0 +1,173 @@
+{
+  "skills": [
+    {
+      "name": "cto",
+      "title": "CTO - Chief Technology Officer",
+      "description": "Main orchestrator. Analyzes tasks and delegates to appropriate teams (PM, QAL, TL, InfraLead, DataLead)",
+      "category": "orchestration",
+      "path": ".agents/skills/cto"
+    },
+    {
+      "name": "pm",
+      "title": "Product Manager",
+      "description": "Product management orchestrator. Coordinates requirements (PO) and design (UX)",
+      "category": "product",
+      "path": ".agents/skills/pm"
+    },
+    {
+      "name": "po",
+      "title": "Product Owner",
+      "description": "Defines requirements, user stories, acceptance criteria. Uses Shape Up methodology",
+      "category": "product",
+      "path": ".agents/skills/po"
+    },
+    {
+      "name": "ux",
+      "title": "UX Designer",
+      "description": "Creates interfaces, wireframes, prototypes. Defines user experience and design systems",
+      "category": "product",
+      "path": ".agents/skills/ux"
+    },
+    {
+      "name": "qal",
+      "title": "QA Lead",
+      "description": "Quality orchestrator. Coordinates testing (QA) and security (SecOps)",
+      "category": "quality",
+      "path": ".agents/skills/qal"
+    },
+    {
+      "name": "qa",
+      "title": "Quality Assurance",
+      "description": "Designs tests, validates acceptance criteria, reports bugs. Uses Vitest and Jest",
+      "category": "quality",
+      "path": ".agents/skills/qa"
+    },
+    {
+      "name": "secops",
+      "title": "Security Operations",
+      "description": "Performs security audits, DevSecOps, vulnerability analysis and compliance",
+      "category": "quality",
+      "path": ".agents/skills/secops"
+    },
+    {
+      "name": "tl",
+      "title": "Tech Lead",
+      "description": "Technical orchestrator. Coordinates architecture (Architect) and implementation (Dev)",
+      "category": "development",
+      "path": ".agents/skills/tl"
+    },
+    {
+      "name": "architect",
+      "title": "Software Architect",
+      "description": "Designs architecture, patterns, and makes high-level technical decisions. Writes ADRs",
+      "category": "development",
+      "path": ".agents/skills/architect"
+    },
+    {
+      "name": "dev",
+      "title": "Developer",
+      "description": "Implements features, writes tests, fixes bugs. Frontend (React/TypeScript) and backend (Node.js/Express)",
+      "category": "development",
+      "path": ".agents/skills/dev"
+    },
+    {
+      "name": "infralead",
+      "title": "Infrastructure Lead",
+      "description": "Infrastructure orchestrator. Coordinates DevOps and DBA for platform and operations",
+      "category": "infrastructure",
+      "path": ".agents/skills/infralead"
+    },
+    {
+      "name": "devops",
+      "title": "DevOps Engineer",
+      "description": "Manages Docker, CI/CD, infrastructure and deployments. Maintains pipelines and environments",
+      "category": "infrastructure",
+      "path": ".agents/skills/devops"
+    },
+    {
+      "name": "dba",
+      "title": "Database Administrator",
+      "description": "Manages databases, optimization, backups, replication and tuning",
+      "category": "infrastructure",
+      "path": ".agents/skills/dba"
+    },
+    {
+      "name": "datalead",
+      "title": "Data Lead",
+      "description": "Data/AI orchestrator. Coordinates data engineering (DataEng) and AI/ML (AIEng)",
+      "category": "data-ai",
+      "path": ".agents/skills/datalead"
+    },
+    {
+      "name": "dataeng",
+      "title": "Data Engineer",
+      "description": "Builds data pipelines, ETL, data warehousing and batch/streaming processing",
+      "category": "data-ai",
+      "path": ".agents/skills/dataeng"
+    },
+    {
+      "name": "aieng",
+      "title": "AI Engineer",
+      "description": "Develops AI/ML models, MLOps, LLM integration and model deployment",
+      "category": "data-ai",
+      "path": ".agents/skills/aieng"
+    },
+    {
+      "name": "find-skills",
+      "title": "Find Skills",
+      "description": "Helps discover and install additional agent skills from the ecosystem",
+      "category": "meta",
+      "path": ".agents/skills/find-skills"
+    },
+    {
+      "name": "skill-creator",
+      "title": "Skill Creator",
+      "description": "Guide for creating new skills with proper structure and format",
+      "category": "meta",
+      "path": ".agents/skills/skill-creator"
+    }
+  ],
+  "categories": {
+    "orchestration": {
+      "title": "Orchestrators",
+      "icon": "🎯",
+      "description": "Main coordinators that analyze and delegate tasks"
+    },
+    "product": {
+      "title": "Product Management",
+      "icon": "📋",
+      "description": "Product strategy, requirements, and user experience"
+    },
+    "quality": {
+      "title": "Quality Assurance",
+      "icon": "✅",
+      "description": "Testing, security, and compliance"
+    },
+    "development": {
+      "title": "Development",
+      "icon": "💻",
+      "description": "Architecture and code implementation"
+    },
+    "infrastructure": {
+      "title": "Infrastructure",
+      "icon": "🚀",
+      "description": "DevOps, CI/CD, and database management"
+    },
+    "data-ai": {
+      "title": "Data & AI",
+      "icon": "📊",
+      "description": "Data pipelines and machine learning"
+    },
+    "meta": {
+      "title": "Meta Skills",
+      "icon": "🔧",
+      "description": "Skills for managing skills"
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "repository": "https://github.com/javalenciacai/develop-skills",
+    "documentation": "https://github.com/javalenciacai/develop-skills#readme",
+    "license": "MIT"
+  }
+}

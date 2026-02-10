@@ -1,37 +1,39 @@
 # Agent Skills - Development Team
 
-A comprehensive collection of AI agent skills organized as a virtual development team. These skills provide structured knowledge and workflows for software development tasks across all domains: product management, quality assurance, technical development, infrastructure, and data/AI.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Skills](https://img.shields.io/badge/skills.sh-install-blue)](https://skills.sh/javalenciacai/develop-skills)
+[![GitHub release](https://img.shields.io/github/v/release/javalenciacai/develop-skills)](https://github.com/javalenciacai/develop-skills/releases)
 
-> **📝 Note**: Before publishing, update `<your-github-username>` in this README, package.json, and INSTALLATION.md with your actual GitHub username.
+A comprehensive collection of AI agent skills organized as a virtual development team. These skills provide structured knowledge and workflows for software development tasks across all domains: product management, quality assurance, technical development, infrastructure, and data/AI.
 
 ## Installation
 
 Install all skills with a single command:
 
 ```bash
-npx skills add <your-github-username>/develop-skills
+npx skills add javalenciacai/develop-skills
 ```
 
 Or install specific skills:
 
 ```bash
 # Install the CTO orchestrator (entry point)
-npx skills add <your-github-username>/develop-skills --skill cto
+npx skills add javalenciacai/develop-skills --skill cto
 
 # Install product management skills
-npx skills add <your-github-username>/develop-skills --skill pm --skill po --skill ux
+npx skills add javalenciacai/develop-skills --skill pm --skill po --skill ux
 
 # Install development skills
-npx skills add <your-github-username>/develop-skills --skill tl --skill architect --skill dev
+npx skills add javalenciacai/develop-skills --skill tl --skill architect --skill dev
 
 # Install quality assurance skills
-npx skills add <your-github-username>/develop-skills --skill qal --skill qa --skill secops
+npx skills add javalenciacai/develop-skills --skill qal --skill qa --skill secops
 
 # Install infrastructure skills
-npx skills add <your-github-username>/develop-skills --skill infralead --skill devops --skill dba
+npx skills add javalenciacai/develop-skills --skill infralead --skill devops --skill dba
 
 # Install data/AI skills
-npx skills add <your-github-username>/develop-skills --skill datalead --skill dataeng --skill aieng
+npx skills add javalenciacai/develop-skills --skill datalead --skill dataeng --skill aieng
 ```
 
 ## Available Skills
@@ -182,3 +184,15 @@ MIT
 - [Agent Skills Specification](https://agentskills.io/)
 - [Skills Directory](https://skills.sh/)
 - [Creating Skills Guide](https://skills.sh/docs)
+
+---
+
+## 🏷️ Repository Topics
+
+When configuring on GitHub, add these topics for better discoverability:
+
+**Required:** `agent-skills`, `ai-agents`
+
+**Recommended:** `development`, `orchestration`, `devops`, `architecture`, `product-management`, `qa-testing`, `security`, `data-engineering`, `machine-learning`, `claude-code`, `github-copilot`, `cursor`
+
+See [GITHUB-SETUP.md](GITHUB-SETUP.md) for complete setup instructions.
