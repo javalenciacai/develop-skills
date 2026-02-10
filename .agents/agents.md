@@ -1,108 +1,108 @@
 # Agent Orchestrator
 
-Este archivo coordina el sistema de agentes de IA para el proyecto. Aprende y se adapta según la evolución del proyecto.
+This file coordinates the AI agent system for the project. It learns and adapts according to project evolution.
 
-## Reglas Fundamentales
+## Fundamental Rules
 
-1. **Punto de entrada único**: Todas las tareas ingresan por el CTO
-2. **Restricción de skills**: Ningún agente puede ejecutar una tarea sin un skill específico
-   - Si no existe el skill → usar `find-skills` para buscar
-   - Si no se encuentra → usar `skill-creator` para crear
-   - Solo entonces ejecutar la tarea
-3. **Jerarquía estricta**: Las tareas fluyen según la estructura organizacional
-4. **Aprendizaje del proyecto**: Este archivo se actualiza con patrones y convenciones específicas del proyecto
+1. **Single entry point**: All tasks enter through the CTO
+2. **Skills restriction**: No agent can execute a task without a specific skill
+   - If the skill doesn't exist → use `find-skills` to search
+   - If not found → use `skill-creator` to create
+   - Only then execute the task
+3. **Strict hierarchy**: Tasks flow according to organizational structure
+4. **Project learning**: This file is updated with project-specific patterns and conventions
 
-## Estructura de Agentes
+## Agent Structure
 
 ```
-CTO (Punto de entrada)
-├── PM (Producto)
-│   ├── PO (Requisitos)
-│   └── UX (Diseño)
-├── QAL (Calidad)
+CTO (Entry point)
+├── PM (Product)
+│   ├── PO (Requirements)
+│   └── UX (Design)
+├── QAL (Quality)
 │   ├── QA (Testing)
-│   └── SecOps (Seguridad)
-├── TL (Técnico)
-│   ├── Architect (Arquitectura)
-│   └── Dev (Desarrollo)
-├── InfraLead (Infraestructura)
+│   └── SecOps (Security)
+├── TL (Technical)
+│   ├── Architect (Architecture)
+│   └── Dev (Development)
+├── InfraLead (Infrastructure)
 │   ├── DevOps (CI/CD)
-│   └── DBA (Bases de datos)
-└── DataLead (Datos/IA)
+│   └── DBA (Databases)
+└── DataLead (Data/AI)
     ├── DataEng (Pipelines)
-    └── AIEng (Modelos IA/ML)
+    └── AIEng (AI/ML Models)
 ```
 
-## Aprendizaje del Proyecto
+## Project Learning
 
-### Stack Tecnológico Detectado
-<!-- Se actualiza automáticamente según el análisis del proyecto -->
-- Frontend: (por detectar)
-- Backend: (por detectar)
-- Base de datos: (por detectar)
-- Infraestructura: (por detectar)
+### Detected Technology Stack
+<!-- Automatically updated according to project analysis -->
+- Frontend: (to be detected)
+- Backend: (to be detected)
+- Database: (to be detected)
+- Infrastructure: (to be detected)
 
-### Patrones y Convenciones
-<!-- Los agentes agregan aquí patrones detectados del proyecto -->
-- Estructura de archivos: (por detectar)
-- Estándares de código: (por detectar)
-- Flujos de trabajo: (por detectar)
+### Patterns and Conventions
+<!-- Agents add detected project patterns here -->
+- File structure: (to be detected)
+- Code standards: (to be detected)
+- Workflows: (to be detected)
 
-### Skills Instalados por Dominio
-<!-- Registro de skills agregados, organizado por dominio -->
+### Skills Installed by Domain
+<!-- Record of added skills, organized by domain -->
 
-#### Producto
+#### Product
 - find-skills ✓
 - skill-creator ✓
 
-#### Desarrollo
+#### Development
 - find-skills ✓
 - skill-creator ✓
 
-#### Infraestructura
+#### Infrastructure
 - find-skills ✓
 - skill-creator ✓
 
-#### Calidad
+#### Quality
 - find-skills ✓
 - skill-creator ✓
 
-#### Datos/IA
+#### Data/AI
 - find-skills ✓
 - skill-creator ✓
 
-## Flujo de Delegación
+## Delegation Flow
 
 ```mermaid
 sequenceDiagram
-    Usuario->>CTO: Solicitud
-    CTO->>CTO: Analizar dominio
-    CTO->>Suborquestador: Delegar
-    Suborquestador->>Ejecutor: Asignar tarea
-    Ejecutor->>Ejecutor: ¿Existe skill?
-    alt No existe skill
-        Ejecutor->>find-skills: Buscar skill
-        alt Skill encontrado
-            Ejecutor->>Ejecutor: Instalar skill
-        else Skill no existe
-            Ejecutor->>skill-creator: Crear skill
+    User->>CTO: Request
+    CTO->>CTO: Analyze domain
+    CTO->>Sub-orchestrator: Delegate
+    Sub-orchestrator->>Executor: Assign task
+    Executor->>Executor: Skill exists?
+    alt Skill doesn't exist
+        Executor->>find-skills: Search skill
+        alt Skill found
+            Executor->>Executor: Install skill
+        else Skill doesn't exist
+            Executor->>skill-creator: Create skill
         end
     end
-    Ejecutor->>Ejecutor: Ejecutar con skill
-    Ejecutor->>Suborquestador: Reportar resultado
-    Suborquestador->>CTO: Consolidar
-    CTO->>Usuario: Responder
+    Executor->>Executor: Execute with skill
+    Executor->>Sub-orchestrator: Report result
+    Sub-orchestrator->>CTO: Consolidate
+    CTO->>User: Respond
 ```
 
-## Configuración de Agentes
+## Agent Configuration
 
-Cada agente tiene su configuración en `.agents/skills/[rol]/agents.md` y `.agents/skills/[rol]/SKILL.md`.
+Each agent has its configuration in `.agents/skills/[role]/agents.md` and `.agents/skills/[role]/SKILL.md`.
 
-Ver estructura completa en `SKILL.md` de la raíz del proyecto.
+See complete structure in `SKILL.md` at the root of the project.
 
-## Referencias
+## References
 
-- Sistema de skills: https://skills.sh
-- Buscar skills: https://skills.sh/vercel-labs/skills/find-skills
-- Crear skills: https://skills.sh/anthropics/skills/skill-creator
-- Roadmaps por rol: https://roadmap.sh
+- Skills system: https://skills.sh
+- Find skills: https://skills.sh/vercel-labs/skills/find-skills
+- Create skills: https://skills.sh/anthropics/skills/skill-creator
+- Roadmaps by role: https://roadmap.sh
