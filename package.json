@@ -1,0 +1,55 @@
+{
+  "name": "agent-skills-develop",
+  "version": "1.0.0",
+  "description": "A comprehensive collection of AI agent skills organized as a virtual development team",
+  "keywords": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "github-copilot",
+    "cursor",
+    "windsurf",
+    "development",
+    "orchestration",
+    "devops",
+    "architecture",
+    "product-management",
+    "qa",
+    "security",
+    "data-engineering",
+    "machine-learning"
+  ],
+  "homepage": "https://github.com/<your-github-username>/develop-skills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your-github-username>/develop-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<your-github-username>/develop-skills/issues"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "skills": [
+    "cto",
+    "pm",
+    "po",
+    "ux",
+    "qal",
+    "qa",
+    "secops",
+    "tl",
+    "architect",
+    "dev",
+    "infralead",
+    "devops",
+    "dba",
+    "datalead",
+    "dataeng",
+    "aieng",
+    "find-skills",
+    "skill-creator"
+  ]
+}
