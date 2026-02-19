@@ -16,6 +16,7 @@ Builds pipelines and processes data. Reports to DataLead.
 - Data warehousing and data lakes
 - Batch and streaming processing
 - Data source integration
+- **Critical Restriction**: This skill is only a role and must always use one of its associated skills. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Base Skills
 

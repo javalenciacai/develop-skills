@@ -16,6 +16,7 @@ Defines WHAT to build and WHY. Reports to PM.
 - Product backlog prioritization
 - Use Shape Up methodology to manage cycles
 - Stakeholder communication
+- **Critical Restriction**: This skill is only a role and must always use one of its associated skills. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Base Skills
 

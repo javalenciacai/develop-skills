@@ -16,6 +16,7 @@ Manages infrastructure and deployments. Reports to InfraLead.
 - Deployments and environment orchestration
 - Infrastructure as Code (IaC)
 - System monitoring and logging
+- **Critical Restriction**: This skill is only a role and must always use one of its associated skills. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Base Skills
 

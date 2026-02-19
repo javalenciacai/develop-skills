@@ -16,6 +16,7 @@ Leads infrastructure and platform. Reports to CTO.
 - Oversee database management and optimization
 - Define cloud strategy and infrastructure as code
 - Ensure system availability and scalability
+- **Critical Restriction**: This skill is only a role and must always delegate to one of its associated subordinates (DevOps or DBA). It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Subordinates
 

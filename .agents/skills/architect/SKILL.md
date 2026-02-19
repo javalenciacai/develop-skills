@@ -16,6 +16,7 @@ Designs architecture and defines technical patterns. Reports to TL.
 - High-level technical decisions
 - Technology and framework evaluation
 - Architecture documentation
+- **Critical Restriction**: This skill is only a role and must always use one of its associated skills. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Base Skills
 

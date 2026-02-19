@@ -16,6 +16,7 @@ Leads the technical side. Reports to CTO.
 - Ensure code quality through code reviews
 - Maintain development standards and conventions
 - Resolve technical blockers for the team
+- **Critical Restriction**: This skill is only a role and must always delegate to one of its associated subordinates (Architect or Dev). It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Subordinates
 

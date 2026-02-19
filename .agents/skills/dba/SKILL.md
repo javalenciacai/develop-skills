@@ -16,6 +16,7 @@ Manages and optimizes databases. Reports to InfraLead.
 - Backups, restoration and disaster recovery
 - Replication and high availability
 - Database monitoring and maintenance
+- **Critical Restriction**: This skill is only a role and must always use one of its associated skills. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Base Skills
 

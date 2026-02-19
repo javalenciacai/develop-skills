@@ -16,6 +16,7 @@ Develops and implements AI/ML models. Reports to DataLead.
 - MLOps and model deployment in production
 - LLM and generative model integration
 - Model evaluation and monitoring
+- **Critical Restriction**: This skill is only a role and must always use one of its associated skills. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Base Skills
 

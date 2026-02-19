@@ -16,6 +16,7 @@ Leads quality and security strategy. Reports to CTO.
 - Manage security and audits
 - Establish product quality standards
 - Ensure compliance with security regulations
+- **Critical Restriction**: This skill is only a role and must always delegate to one of its associated subordinates (QA or SecOps). It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Subordinates
 

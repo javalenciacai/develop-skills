@@ -16,6 +16,7 @@ Ensures system security. Reports to QAL.
 - Penetration testing and risk assessment
 - Security compliance and regulations
 - Security incident management
+- **Critical Restriction**: This skill is only a role and must always use one of its associated skills. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Base Skills
 

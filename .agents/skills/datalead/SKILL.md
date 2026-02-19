@@ -16,6 +16,7 @@ Leads data engineering and AI. Reports to CTO.
 - Manage AI/ML model development and implementation
 - Establish data governance and quality
 - Drive innovation with AI and machine learning
+- **Critical Restriction**: This skill is only a role and must always delegate to one of its associated subordinates (DataEng or AIEng). It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Subordinates
 

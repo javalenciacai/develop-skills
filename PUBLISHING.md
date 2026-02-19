@@ -15,15 +15,15 @@ This guide explains how to publish your skills repository to make it available o
 Replace placeholder text with your actual information:
 
 **In `README.md`:**
-- Replace `<your-github-username>` with your GitHub username
+- Replace `javalenciacai` with your GitHub username
 
 **In `package.json`:**
-- Replace `<your-github-username>` with your GitHub username
+- Replace `javalenciacai` with your GitHub username
 - Update `author` field with your name
 - Verify `homepage`, `repository`, and `bugs` URLs
 
 **In `INSTALLATION.md`:**
-- Replace `<your-github-username>` with your GitHub username
+- Replace `javalenciacai` with your GitHub username
 
 ### 2. Create GitHub Repository
 
@@ -39,7 +39,7 @@ git commit -m "feat: initial release of agent skills development team"
 
 # Create repository on GitHub (via web or CLI)
 # Then add remote
-git remote add origin https://github.com/<your-username>/develop-skills.git
+git remote add origin https://github.com/javalenciacai/develop-skills.git
 
 # Push to GitHub
 git branch -M main
@@ -76,10 +76,10 @@ Test that your skills can be installed:
 
 ```bash
 # Test with your actual username
-npx skills add <your-github-username>/develop-skills --list
+npx skills add javalenciacai/develop-skills --list
 
 # Test full installation
-npx skills add <your-github-username>/develop-skills
+npx skills add javalenciacai/develop-skills
 ```
 
 ### 6. Automatic Indexing
@@ -117,23 +117,23 @@ After publishing, verify everything works:
 ### ✅ Checklist
 
 - [ ] Repository is public on GitHub
-- [ ] All `<your-github-username>` placeholders are replaced
+- [ ] All `javalenciacai` placeholders are replaced
 - [ ] `package.json` has correct URLs and author
-- [ ] Skills install with: `npx skills add <username>/develop-skills`
-- [ ] Individual skills work: `npx skills add <username>/develop-skills --skill cto`
-- [ ] Skills list correctly: `npx skills add <username>/develop-skills --list`
+- [ ] Skills install with: `npx skills add javalenciacai/develop-skills`
+- [ ] Individual skills work: `npx skills add javalenciacai/develop-skills --skill cto`
+- [ ] Skills list correctly: `npx skills add javalenciacai/develop-skills --list`
 
 ### Test Commands
 
 ```bash
 # List available skills
-npx skills add <your-github-username>/develop-skills --list
+npx skills add javalenciacai/develop-skills --list
 
 # Install specific skill
-npx skills add <your-github-username>/develop-skills --skill cto
+npx skills add javalenciacai/develop-skills --skill cto
 
 # Install all skills
-npx skills add <your-github-username>/develop-skills
+npx skills add javalenciacai/develop-skills
 
 # Verify installation
 npx skills list
@@ -146,7 +146,7 @@ npx skills list
 Add a badge to your README:
 
 ```markdown
-[![Install with npx](https://img.shields.io/badge/install-npx_skills-blue)](https://skills.sh/<your-username>/develop-skills)
+[![Install with npx](https://img.shields.io/badge/install-npx_skills-blue)](https://skills.sh/javalenciacai/develop-skills)
 ```
 
 ### Share on Social Media
@@ -163,7 +163,7 @@ Share your skills:
 ✅ Infrastructure (DevOps, DBA, InfraLead)
 ✅ Data/AI (DataEng, AIEng, DataLead)
 
-Install: npx skills add <username>/develop-skills
+Install: npx skills add javalenciacai/develop-skills
 
 Works with Claude Code, GitHub Copilot, Cursor, and 30+ agents!
 
@@ -230,7 +230,7 @@ Encourage users to:
 - Verify repository is public
 - Check SKILL.md files have valid YAML
 - Ensure skills are in `.agents/skills/` directory
-- Test with full GitHub URL: `npx skills add https://github.com/<user>/<repo>`
+- Test with full GitHub URL: `npx skills add https://github.com/javalenciacai/<repo>`
 
 ### Skills Not Appearing on skills.sh
 

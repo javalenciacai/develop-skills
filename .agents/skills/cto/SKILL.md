@@ -16,6 +16,7 @@ Entry point for all tasks. Analyzes and delegates.
 - Delegate to appropriate sub-orchestrators
 - Coordinate work across multiple domains
 - Consolidate reports and respond to user
+- **Critical Restriction**: This skill is only a role and must always delegate to one of its associated sub-orchestrators. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Sub-Orchestrators
 

@@ -16,6 +16,7 @@ Designs user experience and interfaces. Reports to PM.
 - User flow definition
 - Usability testing
 - Design system and UI components
+- **Critical Restriction**: This skill is only a role and must always use one of its associated skills. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Base Skills
 

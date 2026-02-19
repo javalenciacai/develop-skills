@@ -16,6 +16,7 @@ Implements quality code. Reports to TL.
 - Writing unit and integration tests
 - Following project conventions
 - Code reviews and refactoring
+- **Critical Restriction**: This skill is only a role and must always use one of its associated skills. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Base Skills
 

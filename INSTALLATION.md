@@ -9,7 +9,7 @@ This guide explains how to install and use the Agent Skills - Development Team c
 The easiest way to get started is to install all skills at once:
 
 ```bash
-npx skills add <your-github-username>/develop-skills
+npx skills add javalenciacai/develop-skills
 ```
 
 This will:
@@ -24,10 +24,10 @@ If you only need certain skills, you can install them individually:
 
 ```bash
 # Install just the CTO orchestrator (entry point)
-npx skills add <your-github-username>/develop-skills --skill cto
+npx skills add javalenciacai/develop-skills --skill cto
 
 # Install multiple specific skills
-npx skills add <your-github-username>/develop-skills --skill tl --skill dev --skill architect
+npx skills add javalenciacai/develop-skills --skill tl --skill dev --skill architect
 ```
 
 ## Installation Scope
@@ -37,7 +37,7 @@ npx skills add <your-github-username>/develop-skills --skill tl --skill dev --sk
 Installs skills to your current project directory:
 
 ```bash
-npx skills add <your-github-username>/develop-skills
+npx skills add javalenciacai/develop-skills
 ```
 
 Skills will be available in:
@@ -53,9 +53,9 @@ Skills will be available in:
 Installs skills for all your projects:
 
 ```bash
-npx skills add <your-github-username>/develop-skills --global
+npx skills add javalenciacai/develop-skills --global
 # or
-npx skills add <your-github-username>/develop-skills -g
+npx skills add javalenciacai/develop-skills -g
 ```
 
 Skills will be available in:
@@ -78,7 +78,7 @@ Creates symbolic links from your agent directories to a canonical copy. Benefits
 - Saves disk space
 
 ```bash
-npx skills add <your-github-username>/develop-skills
+npx skills add javalenciacai/develop-skills
 # Select: Symlink
 ```
 
@@ -89,7 +89,7 @@ Creates independent copies for each agent. Use when:
 - You want isolated versions per agent
 
 ```bash
-npx skills add <your-github-username>/develop-skills
+npx skills add javalenciacai/develop-skills
 # Select: Copy
 ```
 
@@ -99,13 +99,13 @@ Install to specific agents only:
 
 ```bash
 # Install to Claude Code only
-npx skills add <your-github-username>/develop-skills --agent claude-code
+npx skills add javalenciacai/develop-skills --agent claude-code
 
 # Install to multiple specific agents
-npx skills add <your-github-username>/develop-skills --agent cursor --agent github-copilot
+npx skills add javalenciacai/develop-skills --agent cursor --agent github-copilot
 
 # Non-interactive installation (CI/CD friendly)
-npx skills add <your-github-username>/develop-skills --all -y
+npx skills add javalenciacai/develop-skills --all -y
 ```
 
 ## Skill Categories
@@ -114,22 +114,22 @@ npx skills add <your-github-username>/develop-skills --all -y
 
 ```bash
 # Product Management (PM + PO + UX)
-npx skills add <your-github-username>/develop-skills --skill pm --skill po --skill ux
+npx skills add javalenciacai/develop-skills --skill pm --skill po --skill ux
 
 # Quality Assurance (QAL + QA + SecOps)
-npx skills add <your-github-username>/develop-skills --skill qal --skill qa --skill secops
+npx skills add javalenciacai/develop-skills --skill qal --skill qa --skill secops
 
 # Development (TL + Architect + Dev)
-npx skills add <your-github-username>/develop-skills --skill tl --skill architect --skill dev
+npx skills add javalenciacai/develop-skills --skill tl --skill architect --skill dev
 
 # Infrastructure (InfraLead + DevOps + DBA)
-npx skills add <your-github-username>/develop-skills --skill infralead --skill devops --skill dba
+npx skills add javalenciacai/develop-skills --skill infralead --skill devops --skill dba
 
 # Data & AI (DataLead + DataEng + AIEng)
-npx skills add <your-github-username>/develop-skills --skill datalead --skill dataeng --skill aieng
+npx skills add javalenciacai/develop-skills --skill datalead --skill dataeng --skill aieng
 
 # Meta Skills (find-skills + skill-creator)
-npx skills add <your-github-username>/develop-skills --skill find-skills --skill skill-creator
+npx skills add javalenciacai/develop-skills --skill find-skills --skill skill-creator
 ```
 
 ## Managing Skills
@@ -350,7 +350,7 @@ export DISABLE_TELEMETRY=1
 export DO_NOT_TRACK=1
 
 # Then install
-npx skills add <your-github-username>/develop-skills
+npx skills add javalenciacai/develop-skills
 ```
 
 Telemetry is automatically disabled in CI environments.
@@ -360,7 +360,7 @@ Telemetry is automatically disabled in CI environments.
 Some skills are marked as internal (work-in-progress). To install them:
 
 ```bash
-INSTALL_INTERNAL_SKILLS=1 npx skills add <your-github-username>/develop-skills --list
+INSTALL_INTERNAL_SKILLS=1 npx skills add javalenciacai/develop-skills --list
 ```
 
 ## CI/CD Integration
@@ -369,10 +369,10 @@ For automated installations in CI/CD pipelines:
 
 ```bash
 # Non-interactive installation
-npx skills add <your-github-username>/develop-skills --all -y
+npx skills add javalenciacai/develop-skills --all -y
 
 # Install specific skills to specific agent
-npx skills add <your-github-username>/develop-skills \
+npx skills add javalenciacai/develop-skills \
   --skill cto --skill dev \
   --agent github-copilot \
   --yes
@@ -389,7 +389,7 @@ If you previously installed skills manually:
 
 2. Install with npx:
    ```bash
-   npx skills add <your-github-username>/develop-skills
+   npx skills add javalenciacai/develop-skills
    ```
 
 3. Commit the new structure to git (if project-level)

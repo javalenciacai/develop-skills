@@ -16,6 +16,7 @@ Validates that software works correctly. Reports to QAL.
 - Acceptance criteria validation
 - Bug reporting and tracking
 - Regression testing
+- **Critical Restriction**: This skill is only a role and must always use one of its associated skills. It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Base Skills
 

@@ -16,6 +16,7 @@ Product management and user experience. Reports to CTO.
 - Prioritize product initiatives
 - Align product with business objectives
 - Ensure coherence between requirements and design
+- **Critical Restriction**: This skill is only a role and must always delegate to one of its associated subordinates (PO or UX). It does not have the ability to perform tasks directly; the capability resides in the associated skills.
 
 ## Subordinates
 
